@@ -1,0 +1,35 @@
+{
+    "batch_sizes": [
+        32,
+        16
+    ],
+    "learning_rates": [
+        1e-05,
+        2e-05,
+        3e-05,
+        4e-05
+    ],
+    "epochs": [
+        20
+    ],
+    "context_sizes": [
+        0
+    ],
+    "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+    ],
+    "layers": "-1",
+    "subword_poolings": [
+        "first"
+    ],
+    "use_crf": false,
+    "use_tensorboard": true,
+    "hf_model": "gerturax/gerturax-2",
+    "model_short_name": "gerturax_2",
+    "task": "ner/germeval14_no_wiki",
+    "cuda": "0"
+}

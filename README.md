@@ -1,4 +1,4 @@
-# GERTuraX
+# GERTuraX Fine-Tuner
 
 * GERTuraX is a series of pretrained encoder-only language models for German.
 
@@ -8,7 +8,7 @@
 * In total, three different models were trained and released with pretraining corpus sizes ranging from 147GB to 1.1TB.
 
 This repository hosts all necessary code to conduct the GERTuraX fine-tuning experiments on various downstream tasks
-using the awesome Flair library.
+using the awesome **Flair** library.
 
 # Changelog
 

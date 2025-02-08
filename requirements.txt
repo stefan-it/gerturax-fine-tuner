@@ -1,0 +1,4 @@
+flair==0.15.1
+transformers==4.48.3
+tensorboard
+tabulate

@@ -1,4 +1,4 @@
-# GERTuraX Fine-Tuner
+# 🇩🇪 GERTuraX Fine-Tuner
 
 * GERTuraX is a series of pretrained encoder-only language models for German.
 
@@ -10,11 +10,11 @@
 This repository hosts all necessary code to conduct the GERTuraX fine-tuning experiments on various downstream tasks
 using the awesome **Flair** library.
 
-# Changelog
+# 📋 Changelog
 
 * 09.02.2025: Add initial version of this repository.
 
-# Fine-Tuning
+# ⚗️ Fine-Tuning
 
 ## Dependencies
 
@@ -89,7 +89,7 @@ $ python3 script.py
 
 The `flair-log-parser.py` script can be used to get an overview of best configurations and their correspondig F1-Scores.
 
-# Evaluation Results
+# 📈 Evaluation Results
 
 GERTuraX and other German Language Models were fine-tuned on GermEval 2014 (NER), GermEval 2018 (Sentiment analysis) and CoNLL-2003 (NER)
 

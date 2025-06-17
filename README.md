@@ -101,55 +101,60 @@ score, conducted with the awesome Flair library.
 
 ### GermEval 2014 - Original version
 
-| Model Name                                                        | Avg. Development F1-Score | Avg. Test F1-Score |
-| ----------------------------------------------------------------- | ------------------------- | ------------------ |
-| [GBERT Base](https://huggingface.co/deepset/gbert-base)           | 87.53 ± 0.22              | 86.81 ± 0.16       |
-| [GERTuraX-1](https://huggingface.co/gerturax/gerturax-1) (147GB)  | 88.32 ± 0.21              | 87.18 ± 0.12       |
-| [GERTuraX-2](https://huggingface.co/gerturax/gerturax-2) (486GB)  | 88.58 ± 0.32              | 87.58 ± 0.15       |
-| [GERTuraX-3](https://huggingface.co/gerturax/gerturax-3) (1.1TB)  | 88.90 ± 0.06              | 87.84 ± 0.18       |
-| [GeBERTa Base](https://huggingface.co/ikim-uk-essen/geberta-base) | 88.79 ± 0.16              | 88.03 ± 0.16       |
+| Model Name                                                             | Avg. Development F1-Score | Avg. Test F1-Score |
+|------------------------------------------------------------------------|---------------------------|--------------------|
+| [GBERT Base](https://huggingface.co/deepset/gbert-base)                | 87.53 ± 0.22              | 86.81 ± 0.16       |
+| [GERTuraX-1](https://huggingface.co/gerturax/gerturax-1) (147GB)       | 88.32 ± 0.21              | 87.18 ± 0.12       |
+| [GERTuraX-2](https://huggingface.co/gerturax/gerturax-2) (486GB)       | 88.58 ± 0.32              | 87.58 ± 0.15       |
+| [GERTuraX-3](https://huggingface.co/gerturax/gerturax-3) (1.1TB)       | 88.90 ± 0.06              | 87.84 ± 0.18       |
+| [GeBERTa Base](https://huggingface.co/ikim-uk-essen/geberta-base)      | 88.79 ± 0.16              | 88.03 ± 0.16       |
+| [ModernGBERT 134M](https://huggingface.co/LSX-UniWue/ModernGBERT_134M) | 87.86 ± 0.29              | 86.79 ± 0.29       |
 
 ### GermEval 2014 - [Without Wikipedia](https://huggingface.co/datasets/stefan-it/germeval14_no_wikipedia)
 
-| Model Name                                                        | Avg. Development F1-Score | Avg. Test F1-Score |
-| ----------------------------------------------------------------- | ------------------------- | ------------------ |
-| [GBERT Base](https://huggingface.co/deepset/gbert-base)           | 90.48 ± 0.34              | 89.05 ± 0.21       |
-| [GERTuraX-1](https://huggingface.co/gerturax/gerturax-1) (147GB)  | 91.27 ± 0.11              | 89.73 ± 0.27       |
-| [GERTuraX-2](https://huggingface.co/gerturax/gerturax-2) (486GB)  | 91.70 ± 0.28              | 89.98 ± 0.22       |
-| [GERTuraX-3](https://huggingface.co/gerturax/gerturax-3) (1.1TB)  | 91.75 ± 0.17              | 90.24 ± 0.27       |
-| [GeBERTa Base](https://huggingface.co/ikim-uk-essen/geberta-base) | 91.74 ± 0.23              | 90.28 ± 0.21       |
+| Model Name                                                             | Avg. Development F1-Score | Avg. Test F1-Score |
+|------------------------------------------------------------------------|---------------------------|--------------------|
+| [GBERT Base](https://huggingface.co/deepset/gbert-base)                | 90.48 ± 0.34              | 89.05 ± 0.21       |
+| [GERTuraX-1](https://huggingface.co/gerturax/gerturax-1) (147GB)       | 91.27 ± 0.11              | 89.73 ± 0.27       |
+| [GERTuraX-2](https://huggingface.co/gerturax/gerturax-2) (486GB)       | 91.70 ± 0.28              | 89.98 ± 0.22       |
+| [GERTuraX-3](https://huggingface.co/gerturax/gerturax-3) (1.1TB)       | 91.75 ± 0.17              | 90.24 ± 0.27       |
+| [GeBERTa Base](https://huggingface.co/ikim-uk-essen/geberta-base)      | 91.74 ± 0.23              | 90.28 ± 0.21       |
+| [ModernGBERT 134M](https://huggingface.co/LSX-UniWue/ModernGBERT_134M) | 90.64 ± 0.21              | 89.13 ± 0.31       |
 
 ## GermEval 2018
 
 ### GermEval 2018 - Fine Grained
 
-| Model Name                                                        | Avg. Development F1-Score | Avg. Test F1-Score |
-| ----------------------------------------------------------------- | ------------------------- | ------------------ |
-| [GBERT Base](https://huggingface.co/deepset/gbert-base)           | 63.66 ± 4.08              | 51.86 ± 1.31       |
-| [GERTuraX-1](https://huggingface.co/gerturax/gerturax-1) (147GB)  | 62.87 ± 1.95              | 50.61 ± 0.36       |
-| [GERTuraX-2](https://huggingface.co/gerturax/gerturax-2) (486GB)  | 64.37 ± 1.31              | 51.02 ± 0.90       |
-| [GERTuraX-3](https://huggingface.co/gerturax/gerturax-3) (1.1TB)  | 66.39 ± 0.85              | 49.94 ± 2.06       |
-| [GeBERTa Base](https://huggingface.co/ikim-uk-essen/geberta-base) | 65.81 ± 3.29              | 52.45 ± 0.57       |
+| Model Name                                                             | Avg. Development F1-Score | Avg. Test F1-Score |
+|------------------------------------------------------------------------|---------------------------|--------------------|
+| [GBERT Base](https://huggingface.co/deepset/gbert-base)                | 63.66 ± 4.08              | 51.86 ± 1.31       |
+| [GERTuraX-1](https://huggingface.co/gerturax/gerturax-1) (147GB)       | 62.87 ± 1.95              | 50.61 ± 0.36       |
+| [GERTuraX-2](https://huggingface.co/gerturax/gerturax-2) (486GB)       | 64.37 ± 1.31              | 51.02 ± 0.90       |
+| [GERTuraX-3](https://huggingface.co/gerturax/gerturax-3) (1.1TB)       | 66.39 ± 0.85              | 49.94 ± 2.06       |
+| [GeBERTa Base](https://huggingface.co/ikim-uk-essen/geberta-base)      | 65.81 ± 3.29              | 52.45 ± 0.57       |
+| [ModernGBERT 134M](https://huggingface.co/LSX-UniWue/ModernGBERT_134M) | 59.69 ± 2.12              | 48.75 ± 3.33       |
 
 ### GermEval 2018 - Coarse Grained
 
-| Model Name                                                        | Avg. Development F1-Score | Avg. Test F1-Score |
-| ----------------------------------------------------------------- | ------------------------- | ------------------ |
-| [GBERT Base](https://huggingface.co/deepset/gbert-base)           | 83.15 ± 1.83              | 76.39 ± 0.64       |
-| [GERTuraX-1](https://huggingface.co/gerturax/gerturax-1) (147GB)  | 83.72 ± 0.68              | 77.11 ± 0.59       |
-| [GERTuraX-2](https://huggingface.co/gerturax/gerturax-2) (486GB)  | 84.51 ± 0.88              | 78.07 ± 0.91       |
-| [GERTuraX-3](https://huggingface.co/gerturax/gerturax-3) (1.1TB)  | 84.33 ± 1.48              | 78.44 ± 0.74       |
-| [GeBERTa Base](https://huggingface.co/ikim-uk-essen/geberta-base) | 83.54 ± 1.27              | 78.36 ± 0.79       |
+| Model Name                                                             | Avg. Development F1-Score | Avg. Test F1-Score |
+|------------------------------------------------------------------------|---------------------------|--------------------|
+| [GBERT Base](https://huggingface.co/deepset/gbert-base)                | 83.15 ± 1.83              | 76.39 ± 0.64       |
+| [GERTuraX-1](https://huggingface.co/gerturax/gerturax-1) (147GB)       | 83.72 ± 0.68              | 77.11 ± 0.59       |
+| [GERTuraX-2](https://huggingface.co/gerturax/gerturax-2) (486GB)       | 84.51 ± 0.88              | 78.07 ± 0.91       |
+| [GERTuraX-3](https://huggingface.co/gerturax/gerturax-3) (1.1TB)       | 84.33 ± 1.48              | 78.44 ± 0.74       |
+| [GeBERTa Base](https://huggingface.co/ikim-uk-essen/geberta-base)      | 83.54 ± 1.27              | 78.36 ± 0.79       |
+| [ModernGBERT 134M](https://huggingface.co/LSX-UniWue/ModernGBERT_134M) | 83.16 ± 2.05              | 76.01 ± 0.89       |
 
 ## CoNLL-2003 - German, Revised
 
-| Model Name                                                        | Avg. Development F1-Score | Avg. Test F1-Score |
-| ----------------------------------------------------------------- | ------------------------- | ------------------ |
-| [GBERT Base](https://huggingface.co/deepset/gbert-base)           | 92.15 ± 0.10              | 88.73 ± 0.21       |
-| [GERTuraX-1](https://huggingface.co/gerturax/gerturax-1) (147GB)  | 92.32 ± 0.14              | 90.09 ± 0.12       |
-| [GERTuraX-2](https://huggingface.co/gerturax/gerturax-2) (486GB)  | 92.75 ± 0.20              | 90.15 ± 0.14       |
-| [GERTuraX-3](https://huggingface.co/gerturax/gerturax-3) (1.1TB)  | 92.77 ± 0.28              | 90.83 ± 0.16       |
-| [GeBERTa Base](https://huggingface.co/ikim-uk-essen/geberta-base) | 92.87 ± 0.21              | 90.94 ± 0.24       |
+| Model Name                                                             | Avg. Development F1-Score | Avg. Test F1-Score |
+|------------------------------------------------------------------------|---------------------------|--------------------|
+| [GBERT Base](https://huggingface.co/deepset/gbert-base)                | 92.15 ± 0.10              | 88.73 ± 0.21       |
+| [GERTuraX-1](https://huggingface.co/gerturax/gerturax-1) (147GB)       | 92.32 ± 0.14              | 90.09 ± 0.12       |
+| [GERTuraX-2](https://huggingface.co/gerturax/gerturax-2) (486GB)       | 92.75 ± 0.20              | 90.15 ± 0.14       |
+| [GERTuraX-3](https://huggingface.co/gerturax/gerturax-3) (1.1TB)       | 92.77 ± 0.28              | 90.83 ± 0.16       |
+| [GeBERTa Base](https://huggingface.co/ikim-uk-essen/geberta-base)      | 92.87 ± 0.21              | 90.94 ± 0.24       |
+| [ModernGBERT 134M](https://huggingface.co/LSX-UniWue/ModernGBERT_134M) | 91.49 ± 0.15              | 89.64 ± 0.29       |
 
 # ❤️ Acknowledgements
 

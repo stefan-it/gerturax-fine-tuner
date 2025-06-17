@@ -133,7 +133,7 @@ score, conducted with the awesome Flair library.
 | [GERTuraX-3](https://huggingface.co/gerturax/gerturax-3) (1.1TB)       | 66.39 ± 0.85              | 49.94 ± 2.06       |
 | [GeBERTa Base](https://huggingface.co/ikim-uk-essen/geberta-base)      | 65.81 ± 3.29              | 52.45 ± 0.57       |
 | [ModernGBERT 134M](https://huggingface.co/LSX-UniWue/ModernGBERT_134M) | 59.69 ± 2.12              | 48.75 ± 3.33       |
-| [GeistBERT Base](GeistBERT/GeistBERT_base)                             | 64.84 ± 1.59              | 53.47 ± 1.12       |
+| [GeistBERT Base](https://huggingface.co/GeistBERT/GeistBERT_base)      | 64.84 ± 1.59              | 53.47 ± 1.12       |
 
 ### GermEval 2018 - Coarse Grained
 

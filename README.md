@@ -120,6 +120,7 @@ score, conducted with the awesome Flair library.
 | [GERTuraX-3](https://huggingface.co/gerturax/gerturax-3) (1.1TB)       | 91.75 ± 0.17              | 90.24 ± 0.27       |
 | [GeBERTa Base](https://huggingface.co/ikim-uk-essen/geberta-base)      | 91.74 ± 0.23              | 90.28 ± 0.21       |
 | [ModernGBERT 134M](https://huggingface.co/LSX-UniWue/ModernGBERT_134M) | 90.64 ± 0.21              | 89.13 ± 0.31       |
+| [GeistBERT Base](https://huggingface.co/GeistBERT/GeistBERT_base)      | 90.88 ± 0.31              | 90.14 ± 0.31       |
 
 ## GermEval 2018
 
@@ -145,6 +146,7 @@ score, conducted with the awesome Flair library.
 | [GERTuraX-3](https://huggingface.co/gerturax/gerturax-3) (1.1TB)       | 84.33 ± 1.48              | 78.44 ± 0.74       |
 | [GeBERTa Base](https://huggingface.co/ikim-uk-essen/geberta-base)      | 83.54 ± 1.27              | 78.36 ± 0.79       |
 | [ModernGBERT 134M](https://huggingface.co/LSX-UniWue/ModernGBERT_134M) | 83.16 ± 2.05              | 76.01 ± 0.89       |
+| [GeistBERT Base](https://huggingface.co/GeistBERT/GeistBERT_base)      | 83.77 ± 0.89              | 77.81 ± 0.98       |
 
 ## CoNLL-2003 - German, Revised
 
@@ -156,6 +158,7 @@ score, conducted with the awesome Flair library.
 | [GERTuraX-3](https://huggingface.co/gerturax/gerturax-3) (1.1TB)       | 92.77 ± 0.28              | 90.83 ± 0.16       |
 | [GeBERTa Base](https://huggingface.co/ikim-uk-essen/geberta-base)      | 92.87 ± 0.21              | 90.94 ± 0.24       |
 | [ModernGBERT 134M](https://huggingface.co/LSX-UniWue/ModernGBERT_134M) | 91.49 ± 0.15              | 89.64 ± 0.29       |
+| [GeistBERT Base](https://huggingface.co/GeistBERT/GeistBERT_base)      | 92.55 ± 0.11              | 90.33 ± 0.20       |
 
 # ❤️ Acknowledgements
 

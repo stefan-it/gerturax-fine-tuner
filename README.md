@@ -12,6 +12,7 @@ using the awesome **Flair** library.
 
 # 📋 Changelog
 
+* 20.06.2025: Add new results for ModernGBERT and GeistBERT.
 * 09.02.2025: Add initial version of this repository.
 
 # ⚗️ Fine-Tuning

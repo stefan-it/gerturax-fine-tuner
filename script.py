@@ -14,7 +14,6 @@ hf_token        = os.environ.get("HF_TOKEN")
 hf_hub_org_name = os.environ.get("HUB_ORG_NAME")
 do_upload       = os.environ.get("HF_UPLOAD", False)
 
-login(token=hf_token, add_to_git_credential=True)
 api = HfApi()
 
 with open(config_file, "rt") as f_p:

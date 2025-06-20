@@ -29,11 +29,10 @@ $ pip3 install -r requirements.txt
 The following environment variables can be set:
 
 | Variable       | Required | Description                                                                                                                                                                          |
-| -------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| `CONFIG`       | ✔️        | Path to JSON-based configuration file, e.g. `configs/germeval14/gbert_base.json`.                                                                                                    |
-| `HF_TOKEN`     | ✔️        | Access Token for Hugging Face Model Hub, find it [here](https://huggingface.co/settings/tokens). Must be set when model should be uploaded to Model Hub or to access private models. |
-| `HUB_ORG_NAME` | ✖️        | Organization/User name on Hugging Face Model Hub. Must be set for model upload.                                                                                                      |
-| `HF_UPLOAD`    | ✖️        | Defines if model should be uploaded to Model Hub or not. Disabled by default.                                                                                                        |
+|----------------|----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `CONFIG`       | ✔️       | Path to JSON-based configuration file, e.g. `configs/germeval14/gbert_base.json`.                                                                                                    |
+| `HUB_ORG_NAME` | ✖️       | Organization/User name on Hugging Face Model Hub. Must be set for model upload.                                                                                                      |
+| `HF_UPLOAD`    | ✖️       | Defines if model should be uploaded to Model Hub or not. Disabled by default.                                                                                                        |
 
 ## Configuration format
 

@@ -109,6 +109,7 @@ score, conducted with the awesome Flair library.
 | [GERTuraX-3](https://huggingface.co/gerturax/gerturax-3) (1.1TB)       | 88.90 ± 0.06              | 87.84 ± 0.18       |
 | [GeBERTa Base](https://huggingface.co/ikim-uk-essen/geberta-base)      | 88.79 ± 0.16              | 88.03 ± 0.16       |
 | [ModernGBERT 134M](https://huggingface.co/LSX-UniWue/ModernGBERT_134M) | 87.86 ± 0.29              | 86.79 ± 0.29       |
+| [GeistBERT Base](https://huggingface.co/GeistBERT/GeistBERT_base)      | 88.48 ± 0.34              | 87.67 ± 0.26       |
 
 ### GermEval 2014 - [Without Wikipedia](https://huggingface.co/datasets/stefan-it/germeval14_no_wikipedia)
 

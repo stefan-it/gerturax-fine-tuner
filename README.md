@@ -149,6 +149,18 @@ score, conducted with the awesome Flair library.
 | [ModernGBERT 134M](https://huggingface.co/LSX-UniWue/ModernGBERT_134M) | 83.16 ± 2.05              | 76.01 ± 0.89       |
 | [GeistBERT Base](https://huggingface.co/GeistBERT/GeistBERT_base)      | 83.77 ± 0.89              | 77.81 ± 0.98       |
 
+## CoNLL-2003 - German, Original
+
+| Model Name                                                             | Avg. Development F1-Score | Avg. Test F1-Score |
+|------------------------------------------------------------------------|---------------------------|--------------------|
+| [GBERT Base](https://huggingface.co/deepset/gbert-base)                | 88.33 ± 0.24              | 85.13 ± 0.36       |
+| [GERTuraX-1](https://huggingface.co/gerturax/gerturax-1) (147GB)       | 88.56 ± 0.07              | 86.00 ± 0.51       |
+| [GERTuraX-2](https://huggingface.co/gerturax/gerturax-2) (486GB)       | 88.81 ± 0.12              | 86.28 ± 0.29       |
+| [GERTuraX-3](https://huggingface.co/gerturax/gerturax-3) (1.1TB)       | 88.88 ± 0.13              | 86.03 ± 0.06       |
+| [GeBERTa Base](https://huggingface.co/ikim-uk-essen/geberta-base)      | 88.51 ± 0.06              | 86.21 ± 0.75       |
+| [ModernGBERT 134M](https://huggingface.co/LSX-UniWue/ModernGBERT_134M) | 87.42 ± 0.18              | 84.37 ± 0.37       |
+| [GeistBERT Base](https://huggingface.co/GeistBERT/GeistBERT_base)      | 88.35 ± 0.14              | 85.94 ± 0.25       |
+
 ## CoNLL-2003 - German, Revised
 
 | Model Name                                                             | Avg. Development F1-Score | Avg. Test F1-Score |

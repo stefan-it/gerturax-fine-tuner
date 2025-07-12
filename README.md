@@ -12,7 +12,7 @@ using the awesome **Flair** library.
 
 # 📋 Changelog
 
-* 12.06.2025: Add new results for German CoNLL-2003 Original.
+* 12.07.2025: Add new results for German CoNLL-2003 Original.
 * 20.06.2025: Add new results for ModernGBERT and GeistBERT.
 * 09.02.2025: Add initial version of this repository.
 

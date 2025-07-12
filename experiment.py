@@ -13,6 +13,8 @@ from flair.trainers.plugins.loggers.tensorboard import TensorboardLogger
 
 from pathlib import Path
 
+from awesome_tagesschau_topic_classification_dataset import AWESOME_TAGESSCHAU_TOPIC_CLASSIFICATION
+from conll03_german_original_dataset import CONLL_03_GERMAN_ORIGINAL
 from conll03_german_revised_dataset import CONLL_03_GERMAN_REVISED
 from germeval14_no_wikipedia_dataset import NER_GERMEVAL_2014_NO_WIKIPEDIA
 
@@ -40,11 +42,13 @@ def run_experiment(experiment_configuration: ExperimentConfiguration) -> str:
     set_seed(experiment_configuration.seed)
 
     # Possible task names:
+    # - ner/conll03_de_original
     # - ner/conll03_de_revised
     # - ner/germeval14
     # - ner/germeval14_no_wiki
     # - sentiment/germeval18_coarse
     # - sentiment/germeval18_fine
+    # - topic/awesome_tagesschau
 
     label_type = None
 
@@ -155,6 +159,8 @@ def run_experiment(experiment_configuration: ExperimentConfiguration) -> str:
             corpus = NER_GERMAN_GERMEVAL()
         elif experiment_configuration.task == "ner/germeval14_no_wiki":
             corpus = NER_GERMEVAL_2014_NO_WIKIPEDIA()
+        elif experiment_configuration.task == "ner/conll03_de_original":
+            corpus = CONLL_03_GERMAN_ORIGINAL()
         elif experiment_configuration.task == "ner/conll03_de_revised":
             corpus = CONLL_03_GERMAN_REVISED()
 
@@ -220,13 +226,15 @@ def run_experiment(experiment_configuration: ExperimentConfiguration) -> str:
         tagger.print_model_card()
 
         return output_path
-    elif experiment_configuration.task.startswith("sentiment"):
+    elif experiment_configuration.task.startswith("sentiment") or experiment_configuration.task.startswith("topic"):
         label_type = "class"
 
         if "fine" in experiment_configuration.task:
             corpus = GERMEVAL_2018_OFFENSIVE_LANGUAGE(fine_grained_classes=True)
         elif "coarse" in experiment_configuration.task:
             corpus = GERMEVAL_2018_OFFENSIVE_LANGUAGE()
+        elif "awesome_tagesschau" in experiment_configuration.task:
+            corpus = AWESOME_TAGESSCHAU_TOPIC_CLASSIFICATION()
 
         label_dict = corpus.make_label_dictionary(label_type=label_type)
 

@@ -25,7 +25,7 @@ class CONLL_03_GERMAN_REVISED(ColumnCorpus):
         for dataset_file in ["deu.train", "deu.testa", "deu.testb"]:
             if not (data_folder / dataset_file).exists():
                 # Download it from hub - ask @stefan-it for permission
-                hf_path = hf_hub_download(repo_id="stefan-it/conll03-german-revised", repo_type="dataset",
+                hf_path = hf_hub_download(repo_id="stefmal/conll03-german-revised", repo_type="dataset",
                                           filename=dataset_file, token=True, local_dir=data_folder)
 
         super().__init__(

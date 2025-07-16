@@ -92,9 +92,9 @@ The `flair-log-parser.py` script can be used to get an overview of best configur
 
 # 📈 Evaluation Results
 
-GERTuraX and other German Language Models were fine-tuned on GermEval 2014 (NER), GermEval 2018 (Sentiment analysis) and CoNLL-2003 (NER)
+GERTuraX and other German Language Models were fine-tuned on GermEval 2014 (NER), GermEval 2018 (Sentiment analysis), CoNLL-2003 (NER) and BarNER (NER).
 
-We use the same hyper-parameters for GermEval 2014, GermEval 2018 and CoNLL-2003 as used in the
+We use the same hyper-parameters for GermEval 2014, GermEval 2018, CoNLL-2003 and BarNER as used in the
 [GeBERTa](https://arxiv.org/abs/2310.07321) paper (cf. Table 5) using 5 runs with different seed and report the averaged
 score, conducted with the awesome Flair library.
 

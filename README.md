@@ -174,6 +174,18 @@ score, conducted with the awesome Flair library.
 | [ModernGBERT 134M](https://huggingface.co/LSX-UniWue/ModernGBERT_134M) | 91.49 ± 0.15              | 89.64 ± 0.29       |
 | [GeistBERT Base](https://huggingface.co/GeistBERT/GeistBERT_base)      | 92.55 ± 0.11              | 90.33 ± 0.20       |
 
+## BarNER
+
+| Model Name                                                             | Avg. Development F1-Score | Avg. Test F1-Score |
+|------------------------------------------------------------------------|---------------------------|--------------------|
+| [GBERT Base](https://huggingface.co/deepset/gbert-base)                |                           |                    |
+| [GERTuraX-1](https://huggingface.co/gerturax/gerturax-1) (147GB)       |                           |                    |
+| [GERTuraX-2](https://huggingface.co/gerturax/gerturax-2) (486GB)       |                           |                    |
+| [GERTuraX-3](https://huggingface.co/gerturax/gerturax-3) (1.1TB)       |                           |                    |
+| [GeBERTa Base](https://huggingface.co/ikim-uk-essen/geberta-base)      |                           |                    |
+| [ModernGBERT 134M](https://huggingface.co/LSX-UniWue/ModernGBERT_134M) |                           |                    |
+| [GeistBERT Base](https://huggingface.co/GeistBERT/GeistBERT_base)      |                           |                    |
+
 # ❤️ Acknowledgements
 
 GERTuraX is the outcome of the last 12 months of working with TPUs from the awesome [TRC program](https://sites.research.google/trc/about/)

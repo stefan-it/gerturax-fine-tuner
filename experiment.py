@@ -4,7 +4,7 @@ from dataclasses import dataclass
 
 from flair import set_seed
 
-from flair.datasets import NER_GERMAN_GERMEVAL, GERMEVAL_2018_OFFENSIVE_LANGUAGE, UD_GERMAN
+from flair.datasets import NER_BAVARIAN_WIKI, NER_GERMAN_GERMEVAL, GERMEVAL_2018_OFFENSIVE_LANGUAGE, UD_GERMAN
 from flair.embeddings import TransformerWordEmbeddings, TransformerDocumentEmbeddings
 from flair.models import SequenceTagger, TextClassifier, TokenClassifier
 from flair.nn.multitask import make_multitask_model_and_corpus
@@ -42,6 +42,7 @@ def run_experiment(experiment_configuration: ExperimentConfiguration) -> str:
     set_seed(experiment_configuration.seed)
 
     # Possible task names:
+    # - ner/bavarian_wiki
     # - ner/conll03_de_original
     # - ner/conll03_de_revised
     # - ner/germeval14
@@ -163,6 +164,8 @@ def run_experiment(experiment_configuration: ExperimentConfiguration) -> str:
             corpus = CONLL_03_GERMAN_ORIGINAL()
         elif experiment_configuration.task == "ner/conll03_de_revised":
             corpus = CONLL_03_GERMAN_REVISED()
+        elif experiment_configuration.task == "ner/bavarian_wiki":
+            corpus = NER_BAVARIAN_WIKI()
 
         label_dictionary = corpus.make_label_dictionary(label_type=label_type)
         logger.info("Label Dictionary: {}".format(label_dictionary.get_items()))

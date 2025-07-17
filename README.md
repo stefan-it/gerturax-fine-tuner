@@ -178,13 +178,13 @@ score, conducted with the awesome Flair library.
 
 | Model Name                                                             | Avg. Development F1-Score | Avg. Test F1-Score |
 |------------------------------------------------------------------------|---------------------------|--------------------|
-| [GBERT Base](https://huggingface.co/deepset/gbert-base)                |                           |                    |
-| [GERTuraX-1](https://huggingface.co/gerturax/gerturax-1) (147GB)       |                           |                    |
-| [GERTuraX-2](https://huggingface.co/gerturax/gerturax-2) (486GB)       |                           |                    |
-| [GERTuraX-3](https://huggingface.co/gerturax/gerturax-3) (1.1TB)       |                           |                    |
-| [GeBERTa Base](https://huggingface.co/ikim-uk-essen/geberta-base)      |                           |                    |
-| [ModernGBERT 134M](https://huggingface.co/LSX-UniWue/ModernGBERT_134M) |                           |                    |
-| [GeistBERT Base](https://huggingface.co/GeistBERT/GeistBERT_base)      |                           |                    |
+| [GBERT Base](https://huggingface.co/deepset/gbert-base)                | 69.32 ± 1.60              | 69.62 ± 2.81       |
+| [GERTuraX-1](https://huggingface.co/gerturax/gerturax-1) (147GB)       | 70.04 ± 0.87              | 71.81 ± 1.14       |
+| [GERTuraX-2](https://huggingface.co/gerturax/gerturax-2) (486GB)       | 71.57 ± 0.66              | 68.08 ± 1.84       |
+| [GERTuraX-3](https://huggingface.co/gerturax/gerturax-3) (1.1TB)       | 72.00 ± 1.01              | 69.94 ± 1.50       |
+| [GeBERTa Base](https://huggingface.co/ikim-uk-essen/geberta-base)      | 72.25 ± 0.63              | 69.07 ± 2.06       |
+| [ModernGBERT 134M](https://huggingface.co/LSX-UniWue/ModernGBERT_134M) | 50.50 ± 2.39              | 60.62 ± 1.30       |
+| [GeistBERT Base](https://huggingface.co/GeistBERT/GeistBERT_base)      | 71.78 ± 1.46              | 71.12 ± 1.20       |
 
 # ❤️ Acknowledgements
 
